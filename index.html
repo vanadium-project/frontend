@@ -1,9 +1,13 @@
 <head>
     <!-- ... -->
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
     <!-- ... other scripts -->
   </head>
   <body>
+    <section>
+      <h1 class="header">NN Coin</h1>
+    </section>
     <script>
         let tg = window.Telegram.WebApp;
         tg.showAlert(`Добро пожаловать, @${tg.WebAppUser.username}.`)
